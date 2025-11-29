@@ -1,0 +1,16 @@
+# Write your solution here
+# input statement
+print("Person1")
+name1 = input("Name: ")
+age1 = int(input("Age: "))
+name2 = input("Name: ")
+age2 = int(input("Age: "))
+
+# conditional statements
+
+if age1 > age2:
+    print(f"The elder is {name1}")
+elif age2 > age1:
+    print(f"The elder is {name2}")
+else:
+    print(f"{name1} and {name2} are the same age")
